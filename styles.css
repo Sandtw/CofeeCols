@@ -112,14 +112,17 @@ nav li a:hover {
     text-align: left;
 }
 #formulario{
-    position: absolute;
-    right:7px;
-    width: 22.5%;
-    margin-right: 47px; 
-    bottom: -155%;
+    /*position: absolute;
+    right:7px;*/
+    width: 23.5%;
+    /*margin-right: 47px; 
+    bottom: -155%;*/
     background-color: rgb(155, 118, 80);
     height: 500px;
     border-radius: 12px;
+    margin-top: -544px;
+    float: right;
+    margin-right: 27px;
 }
 #formulario h3{
     text-align: center;
