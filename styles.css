@@ -1,0 +1,175 @@
+body{
+    background-image: url("img/fondo.jpg");
+    margin:  5px 25px;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+h1{
+    margin: 0 5px;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    text-shadow: 0.1em 0.1em rgb(76, 62, 62);
+    color: rgb(230, 174, 101);
+}
+nav{
+    background-color: rgb(33, 20, 5);
+    border-radius: 15px;
+}
+ul{
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    
+}
+nav ul li {
+    float: left;
+    text-align: center;
+    display:block;
+    width: 20%;
+}
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+nav li a:hover {
+    color: rgb(204, 170, 126);
+}
+#banner header h2{
+    color: #ffffff;
+    float: left;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+#banner p{
+    width: 40%;
+    color: rgb(204, 172, 129);
+    float: left;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+#banner img{
+    width: 100%;
+    margin-top: -50px;
+    max-height: 400px;
+
+}
+#contenido ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 25px 0px;
+    padding: 15px;
+}
+#contenido ul li{
+    float: left;
+    display:block;
+    width: 24.1%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+#contenido ul li .cuadro{
+    background-color: rgb(212, 178, 133);
+    border-radius: 12px;
+    height: 500px;
+}
+#contenido ul li .cuadro a{
+    display: block;
+    text-align: center;
+}
+#contenido ul li .cuadro a img{
+    box-sizing: border-box;
+    border: 10px solid #fff;
+    width: 80%;
+    margin: 25px 0px;
+
+}
+#contenido .columna li .cuadro h2 a{
+    color: #ffffff;
+    display: block; 
+    font-size: 28px;
+    padding-left: 28px;
+    margin-right: 16px;;
+    text-align: left;
+}
+#contenido .columna li .cuadro h2 a:hover{
+    color: rgb(98, 46, 0);
+}
+#contenido .columna li .cuadro p{
+    color: #292525;
+    font-size: 18px;
+    padding-left: 28px;
+    margin-right: 16px;;
+    text-align: left;
+}
+#formulario{
+    position: absolute;
+    right:0;
+    width: 22.5%;
+    margin-right: 47px; 
+    bottom: -104%;
+    background-color: rgb(155, 118, 80);
+    height: 500px;
+    border-radius: 12px;
+}
+#formulario h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 35px 10px 25px 10px;
+}
+#formulario fieldset{
+    color: #ffffff;
+    border: none;
+    margin: 0 15px;
+}
+#fornulario fieldset label{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#formulario fieldset input[type='text'],
+#formulario fieldset input[type='mail'],
+#formulario fieldset input[type='cel']
+{    
+    width: 96%;
+    margin-bottom: 12px;
+}
+#formulario fieldset #boton{
+    background-color: rgb(242, 182, 107);
+    color: rgb(106, 37, 0);
+    width: 95px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    background-color: rgb(59, 30, 5);
+    border-radius: 15px;
+    height: 240px;
+    padding: 15px 0;
+    color: #ffffff;
+    display: flex;
+    align-items: space-evenly;
+}
+footer section{
+    width: 33%;
+    margin: 0 25px;
+}
+footer section h3{
+    font-size: 25px;
+}
+footer section p{
+    font-size: 18px;
+}
+footer section p a{
+    color: rgb(192, 186, 186);
+}
